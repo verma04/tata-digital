@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { motion  , useCycle } from 'framer-motion'
-import Explore from './Explore'
-import Product from './Product'
+import Explore from './Explore/Index'
+import Product from './Product/index'
 function Index({}) {
 
     const [first, setfirst] = React.useState(false)
