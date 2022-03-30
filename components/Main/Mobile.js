@@ -8,8 +8,8 @@ import ProgressBarMobile from '../ProgressBar/ProgressBarMobile'
 import Navbar from '../Navbar/Navbar';
 import Digital from './Digital';
 import globalStyles from './Style'
-import Screen2 from '../Screen2';
-import ProductExplore from '../Section3';
+import Screen2 from '../Screen2/Main';
+import ProductExplore from '../Section3/Main';
 function Mobile({}) {
   const [explore, setExplore] = useState(false)
   const [product, setProduct] = useState(false)

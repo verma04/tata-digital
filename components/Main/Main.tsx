@@ -9,8 +9,8 @@ import Image from 'next/image'
 import Navbar from '../Navbar/Navbar';
 import { isMobile, browserName  , isTablet , isDesktop , } from "react-device-detect";
 import Mobile from './Mobile';
-import Screen2 from '../Screen2';
-import ProductExplore from '../Section3';
+import Screen2 from '../Screen2/Main';
+import ProductExplore from '../Section3/Main';
 import { setTimeout } from 'timers';
 
 

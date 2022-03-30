@@ -11,8 +11,8 @@ import { isMobile, browserName  , isTablet , isDesktop , } from "react-device-de
 import Mobile from './Mobile';
 
 
-import Screen2 from '../Screen2';
-import ProductExplore from '../Section3';
+import Screen2 from '../Screen2/Main';
+import ProductExplore from '../Section3/Main';
 function Main() {
   const [explore, setExplore] = useState(false)
   const [product, setProduct] = useState(false)
